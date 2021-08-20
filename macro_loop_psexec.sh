@@ -2,4 +2,4 @@
 
 while read server; do
   macro_psexec.sh $server
-done< server_list
+done< $HOME/Tools/macros/.settings/servers_list
